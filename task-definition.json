@@ -1,0 +1,20 @@
+{
+  "family": "train-ticket-task",
+  "networkMode": "awsvpc",
+  "containerDefinitions": [
+    {
+      "name": "train-ticket-container",
+      "image": "<IMAGE>",
+      "portMappings": [
+        {
+          "containerPort": 8080,
+          "protocol": "tcp"
+        }
+      ],
+      "essential": true
+    }
+  ],
+  "requiresCompatibilities": ["FARGATE"],
+  "cpu": "256",
+  "memory": "512"
+}
