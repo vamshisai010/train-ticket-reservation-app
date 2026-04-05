@@ -5,10 +5,10 @@
   "containerDefinitions": [
     {
       "name": "traintickercontainer",
-      "image": "<IMAGE>",
+      "image": "1775416664",
       "portMappings": [
         {
-          "containerPort": 8080,
+          "containerPort": 80,
           "protocol": "tcp"
         }
       ],
