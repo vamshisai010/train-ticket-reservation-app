@@ -1,6 +1,6 @@
 FROM openjdk:17
 
-WORKDIR /src
+WORKDIR /app
 
 COPY target/*.jar app.jar
 
